@@ -60,8 +60,8 @@ THEN THEY CAN ...
 # Contributors 
 <ul><li><strong><a href="https://github.com/TWelk" target="_blank">Tyler Welker</a>:</strong> Back-End Engineer; JavaScript, API</li>
 <li><strong><a href="https://github.com/grdnd" target="_blank">Gordon Do</a>:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
-<li><strong><a href="https://github.com/TWelk" target="_blank">Jasper Barcial:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
-<li><strong><a href="https://github.com/jbarcial25" target="_blank">Rachel Marron</a>:</strong> Product Manager, Back-End Engineer; MySQL, JavaScript</li>
+<li><strong><a href="https://github.com/jbarcial25" target="_blank">Jasper Barcial</a>:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
+<li><strong><a href="https://github.com/racheldmarron" target="_blank">Rachel Marron</a>:</strong> Product Manager, Back-End Engineer; MySQL, JavaScript</li>
 <li><strong><a href="https://github.com/microjess" target="_blank">Jessi Magana</a>:</strong> Project Manager, Front-End Engineer; JavaScript, CSS</li></ul>
 
 # License 
