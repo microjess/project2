@@ -47,7 +47,7 @@ SO THAT users can find and use the e-commerce application
 TBD- step by step with screenshots
 
 # Created Using: 
-<ul><li>Node.js, Express,js<li>
+<ul><li>Node.js, Express,js</li>
 <li>Sequelize</li>
 <li>Server-side API</li>
 <li>Integration API</li>
@@ -57,10 +57,10 @@ TBD- step by step with screenshots
 
 # Contributors 
 <ul><li><strong>Tyler Welker:</strong> Back-End Engineer; JavaScript, API</li>
-<ul><li><strong>Tyler Welker:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
-<ul><li><strong>Tyler Welker:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
-<ul><li><strong>Tyler Welker:</strong> Product Manager, Back-End Engineer; MySQL, JavaScript</li>
-<ul><li><strong>Tyler Welker:</strong> Project Manager, Front-End Engineer; JavaScript, CSS</li>
+<li><strong>Gordon Do:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
+<li><strong>Jasper Barcial:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
+<li><strong>Rachel Marron:</strong> Product Manager, Back-End Engineer; MySQL, JavaScript</li>
+<li><strong>Jessi Magana:</strong> Project Manager, Front-End Engineer; JavaScript, CSS</li></ul>
 
 # License 
 
