@@ -24,28 +24,28 @@ SO THAT I can make conscious buying choices that help the planet
 
 # Acceptance Criteria
 ```
-I WANT to use Node.js and Express.js<br>
-SO THAT I can create a RESTful, server-side API<br>
-I WANT to use MySQL and Sequelize<br>
-SO THAT I can create a database><br>
-I WANT to have GET and POST routes<br>
-SO THAT I can retrieve and add new applicable data<br>
-I WANT to integrate the PayPal technology<br>
-SO THAT users can add items to cart and complete the check-out process sucessfully<br>
-I WANT to create a log in and sign up landing page<br>
-SO THAT I can have successful user authentication<br>
-I WANT to create a enviornmental variables file<br>
-SO THAT I can protect sensitive information<br>
-I WANT to use Handlebars and responsive CSS<br>
-SO THAT I can have a polished and interactive UI<br>
-I WANT to have a folder structure that meets the MVC paradigm<br>
-SO THAT I can meet good-quality coding standards that follow best practices<br>
-I WANT to deploy my application to Heroku<br>
+I WANT to use Node.js and Express.js
+SO THAT I can create a RESTful, server-side API
+I WANT to use MySQL and Sequelize
+SO THAT I can create a database
+I WANT to have GET and POST routes
+SO THAT I can retrieve and add new applicable data
+I WANT to integrate the PayPal technology
+SO THAT users can add items to cart and complete the check-out process sucessfully
+I WANT to create a log in and sign up landing page
+SO THAT I can have successful user authentication
+I WANT to create a enviornmental variables file
+SO THAT I can protect sensitive information
+I WANT to use Handlebars and responsive CSS
+SO THAT I can have a polished and interactive UI
+I WANT to have a folder structure that meets the MVC paradigm
+SO THAT I can meet good-quality coding standards that follow best practices
+I WANT to deploy my application to Heroku
 SO THAT users can find and use the e-commerce application
 ```
 # User Instructions:
-TBD- step by step with screenshots<br>
-WHEN A USER ...<br>
+TBD- step by step with screenshots
+WHEN A USER ...
 THEN THEY CAN ...
 
 # Created Using: 
