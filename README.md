@@ -44,7 +44,9 @@ I WANT to deploy my application to Heroku<br>
 SO THAT users can find and use the e-commerce application
 ```
 # User Instructions:
-TBD- step by step with screenshots
+TBD- step by step with screenshots<br>
+WHEN A USER ...<br>
+THEN THEY CAN ...
 
 # Created Using: 
 <ul><li>Node.js, Express,js</li>
