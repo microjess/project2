@@ -53,7 +53,7 @@ TBD- step by step with screenshots
 <li>Integration API</li>
 <li>Handlebars, CSS</li>
 <li>MySQL</li>
-<li>Deployed on: Heroku</li>
+<li>Deployed on: Heroku</li></ul>
 
 # Contributors 
 <ul><li><strong>Tyler Welker:</strong> Back-End Engineer; JavaScript, API</li>
