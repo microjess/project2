@@ -25,18 +25,18 @@ header {
 .welcome p {
     margin-left: 5px;
 }
-/* Centers Elements of both cards */
-
-.login-card {
-    height: auto;
-    margin-left: 20px;
-}
 
 /* Login and Signup Header Styling */
 div h2 {
     color: var(--tan);
     font-size: 2rem;
     margin-bottom: 5px;
+}
+
+/* Card Characteristics */
+.login-card {
+    height: auto;
+    margin-left: 20px;
 }
 
 /* Card styling */
