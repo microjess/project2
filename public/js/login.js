@@ -204,3 +204,24 @@ document
 document
   .querySelector(".signup-form")
   .addEventListener("submit", signupFormHandler);
+
+// This section handles showing/hiding of login/signup windows
+// global variables
+const signUpHereBtn = document.getElementById('sign-up-here');
+const loginHereBtn = document.getElementById('login-here');
+const loginCard = document.getElementById('login-card');
+const signupCard = document.getElementById('sign-up-card')
+
+function showSignup () {
+  // click sign up here to hide login page and display signup
+  loginCard.classList.add('hidden');
+  signupCard.classList.remove('hidden');
+}
+
+function showLogin() {
+  loginCard.classList.remove('hidden');
+  signupCard.classList.add('hidden');
+}
+
+signUpHereBtn.addEventListener('click', showSignup);
+loginHereBtn.addEventListener('click', showLogin);
