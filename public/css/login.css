@@ -1,0 +1,129 @@
+/* color variables */
+:root {
+    --darkblue: #283954;
+    --tan: #BE9266;
+}
+
+/* BG Image */
+body {
+    background-image: url('../../assets/img/hat-on-rock\ narrow.jpg');
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    text-align: right;
+    font-size: 3rem;
+    padding: 5px 20px;
+    color: var(--darkblue);
+}
+
+.welcome p {
+    margin-left: 5px;
+}
+/* Centers Elements of both cards */
+
+.login-card {
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Login and Signup Header Styling */
+div h2 {
+    color: var(--tan);
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+/* Card styling */
+form {
+    color: var(--darkblue);
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    /* background-color: transparent; */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+/* lower opacity of hints */
+.signupHints {
+    opacity: 70%;
+    margin: 10px;
+    color: black;
+}
+
+/* Form Groups styling */
+.form-group {
+    margin: 15px 0px;
+}
+
+/* Button Form Group */
+.loginButton,
+.signUpButton {
+    text-align: center;
+}
+
+/* btn styling */
+.btn {
+    background-color: var(--darkblue);
+    border: none;
+    margin: 10px;
+    width: 75%;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: var(--tan);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 1px gray;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 624px) {
+    header {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 20px;
+    }
+
+    body {
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        overflow: hidden;
+    }
+
+    .login-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        height: auto;
+        width: 350px;
+        border-radius: 20px;
+    }
+
+    /* Keeping hidden class for media queries */
+    .hidden {
+        display:none;
+    }
+}
