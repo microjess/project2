@@ -20,12 +20,10 @@ TBA
 AS A user who participates in online shopping<br>
 I WANT an e-commerce site that shows me the sustainability rating and factory standards for clothes I want to buy<br>
 SO THAT I can make conscious buying choices that help the planet
-
 ```
 
 # Acceptance Criteria
 ```
-
 I WANT to use Node.js and Express.js<br>
 SO THAT I can create a RESTful, server-side API<br>
 I WANT to use MySQL and Sequelize<br>
@@ -44,13 +42,11 @@ I WANT to have a folder structure that meets the MVC paradigm<br>
 SO THAT I can meet good-quality coding standards that follow best practices<br>
 I WANT to deploy my application to Heroku<br>
 SO THAT users can find and use the e-commerce application
-
 ```
 # User Instructions:
 TBD- step by step with screenshots
 
 # Created Using: 
-```
 <ul><li>Node.js, Express,js<li>
 <li>Sequelize</li>
 <li>Server-side API</li>
@@ -59,14 +55,12 @@ TBD- step by step with screenshots
 <li>MySQL</li>
 <li>Deployed on: Heroku</li>
 
-```
-
 # Contributors 
-Tyler Welker: Back-End Engineer; JavaScript, API<br>
-Gordon Do: Front-End Engineer; JavaScript, Handlebars, CSS<br>
-Jasper Barcial: Front-End Engineer; JavaScript, Handlebars, CSS<br>
-Rachel Marron: Product Manager, Back-End Engineer; MySQL, JavaScript<br>
-Jessi Magana: Project Manager, Front-End Engineer; JavaScript, CSS<br>
+<ul><li><strong>Tyler Welker:</strong> Back-End Engineer; JavaScript, API</li>
+<ul><li><strong>Tyler Welker:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
+<ul><li><strong>Tyler Welker:</strong> Front-End Engineer; JavaScript, Handlebars, CSS</li>
+<ul><li><strong>Tyler Welker:</strong> Product Manager, Back-End Engineer; MySQL, JavaScript</li>
+<ul><li><strong>Tyler Welker:</strong> Project Manager, Front-End Engineer; JavaScript, CSS</li>
 
 # License 
 
@@ -76,4 +70,4 @@ This application is covered under MIT License
 
 - - -
 
-© 2021 Sustainability E-Commerce, Inc. All Rights Reserved.
+© 2022 Sustainable E-Commerce, Inc. All Rights Reserved.
