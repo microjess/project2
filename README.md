@@ -4,7 +4,7 @@
 TBA 
 
 # Overview 
-"Fast fashion" is at an all-time high with e-commerce companies producing mass quantities of clothing. Unfortunately, with "fast fashion" comes unethical sourcing and production and often poor factory conditions for workers. Our e-commerce site focuses on sustainable clothing that has transparency around fabric, production, and factory conditions. With integrated PayPal API, customers can add and purchase sustainable clothing directly from our site. 
+"Fast fashion" is at an all-time high with e-commerce companies producing mass quantities of clothing. Unfortunately, with "fast fashion" comes unethical sourcing and production and often poor factory conditions for workers. Our e-commerce site focuses on sustainable clothing that has transparency around fabric, production, and factory conditions. With integrated Stripe API, customers can add and purchase sustainable clothing directly from our site. 
 
 # Table of Contents
 
@@ -61,7 +61,7 @@ I WANT to use MySQL and Sequelize
 SO THAT I can create a database
 I WANT to have GET and POST routes
 SO THAT I can retrieve and add new applicable data
-I WANT to integrate the PayPal technology
+I WANT to integrate the Stripe technology
 SO THAT users can add items to cart and complete the check-out process sucessfully
 I WANT to create a log in and sign up landing page
 SO THAT I can have successful user authentication
