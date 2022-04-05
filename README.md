@@ -17,12 +17,43 @@ TBA
 
 # User Story
 ```
-AS A user who participates in online shopping<br>
-I WANT an e-commerce site that shows me the sustainability rating and factory standards for clothes I want to buy<br>
+AS A user who participates in online shopping
+I WANT an e-commerce site that shows me the sustainability rating and factory standards for clothes I want to buy
 SO THAT I can make conscious buying choices that help the planet
 ```
 
 # Acceptance Criteria
+```
+WHEN THE USER lands on the application
+THEN THEY ARE presented with the option to log in (existing customer) or sign up (new customer)
+WHEN THE USER enters their valid login credentials or signs up with new credentials 
+THEN THEY ARE taken to the application landing page 
+WHEN THE USER clicks into the landing page 
+THEN THEY ARE presented with a product page for all products available for purchase 
+WHEN THE USER clicks into the product 
+THEN THEY ARE shown applicable data for the product such as price and sustainability information
+WHEN THE USER adds a product to their cart
+THEN the item is successfully added to the cart and their cart count increases by 1
+WHEN THE USER goes to check out 
+THEN THEY ARE presented with all items they will be charged for
+WHEN THE USER checks out using Stripe
+THEN THEY have successfully purchased the item and Stripe will charge their card 
+
+```
+
+# User Instructions:
+TBD- step by step with screenshots
+
+# Created Using: 
+<ul><li>Node.js, Express,js</li>
+<li>Sequelize</li>
+<li>Server-side API</li>
+<li>Integration API</li>
+<li>Handlebars, CSS</li>
+<li>MySQL</li>
+<li>Deployed on: Heroku</li></ul>
+
+# Development Acceptance Criteria
 ```
 I WANT to use Node.js and Express.js
 SO THAT I can create a RESTful, server-side API
@@ -43,19 +74,6 @@ SO THAT I can meet good-quality coding standards that follow best practices
 I WANT to deploy my application to Heroku
 SO THAT users can find and use the e-commerce application
 ```
-# User Instructions:
-TBD- step by step with screenshots
-WHEN A USER ...
-THEN THEY CAN ...
-
-# Created Using: 
-<ul><li>Node.js, Express,js</li>
-<li>Sequelize</li>
-<li>Server-side API</li>
-<li>Integration API</li>
-<li>Handlebars, CSS</li>
-<li>MySQL</li>
-<li>Deployed on: Heroku</li></ul>
 
 # Contributors 
 <ul><li><strong><a href="https://github.com/TWelk" target="__blank">Tyler Welker</a>:</strong> Back-End Engineer; JavaScript, API</li>
