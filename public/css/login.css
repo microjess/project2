@@ -6,7 +6,8 @@
 
 /* BG Image */
 body {
-    background-image: url('../../assets/img/hat-on-rock\ narrow.jpg');
+    font-family: 'EB Garamond', serif;
+    background-image: url('../../assets/img/shoes-view.jpg');
     width: auto;
     height: 100vh;
     background-size: cover;
@@ -41,11 +42,9 @@ div h2 {
 
 /* Card styling */
 form {
-    color: var(--darkblue);
     width: 300px;
     height: 100vh;
     padding: 20px;
-    /* background-color: transparent; */
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
