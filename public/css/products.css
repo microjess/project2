@@ -1,4 +1,5 @@
 /* color variables */
+
 :root {
     --darkblue: #283954;
     --tan: #BE9266;
@@ -10,7 +11,8 @@ body {
 }
 
 nav {
-    background-image: url(../../assets/img/photographer-white.jpg);
+    background-image: url(../img/photographer-white.jpg);
+    background-color: var(--tan);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +54,7 @@ header {
 }
 
 main {
-    background-image: url(../../assets/img/grayscale-clothes.jpg);
+    background-image: url(../img/grayscale-clothes.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +71,7 @@ hr {
 }
 
 .quote-container {
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -93,9 +95,10 @@ hr {
     margin: 10px;
 }
 
+
 /* Align Right */
+
 .gandhi,
 .right {
     text-align: right;
 }
-

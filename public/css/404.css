@@ -1,4 +1,5 @@
 /* color variables */
+
 :root {
     --darkblue: #283954;
     --tan: #BE9266;
@@ -10,7 +11,9 @@
 }
 
 body {
-    background-image: url('../../assets/img/lake-shot.jpg');
+    margin: 30px;
+    background-color: var(--tan);
+    background-image: url('../img/lake-shot.jpg');
     width: auto;
     height: 100vh;
     background-size: cover;
@@ -59,7 +62,7 @@ i:hover {
 .jumbotron {
     font-family: 'EB Garamond', serif;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
-    background-color: rgba(255, 255, 255, .15);  
+    background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
     border-radius: 20px;
     margin: auto;
@@ -112,15 +115,12 @@ p a:hover {
     .jumbotron {
         width: 60%;
     }
-
     .four {
         font-size: 3rem;
     }
-
     .exist {
         font-size: 1rem;
     }
-
     .description {
         display: none;
     }
