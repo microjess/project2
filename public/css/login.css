@@ -10,7 +10,7 @@
 
 body {
     font-family: 'EB Garamond', serif;
-    background-image: url('../../assets/img/shoes-view.jpg');
+    background-image: url('../img/shoes-view.jpg');
     width: auto;
     height: 100vh;
     background-size: cover;
