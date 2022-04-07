@@ -9,16 +9,17 @@ TBA
 # Table of Contents
 
   * [User Story](#user-story)
-  * [Acceptance](#acceptance-criteria)
+  * [User Acceptance](#acceptance-criteria)
   * [User Instructions](#user-instructions)
   * [Tools](#created-using)
+  * [Dev Acceptance Criteria](#development-acceptance)
   * [Contributors](#contributors)
   * [License](#license)
 
 # User Story
 ```
 AS A user who participates in online shopping
-I WANT an e-commerce site that shows me the sustainability rating and factory standards for clothes I want to buy
+I WANT an e-commerce site that allows me to purchase sustainable clothing
 SO THAT I can make conscious buying choices that help the planet
 ```
 
