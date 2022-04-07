@@ -86,16 +86,19 @@ hr {
     background-color: var(tan);
 }
 
+.products,
+.quote {
+    font-size: 3rem;
+}
+
 .card-title {
     margin: 10px;
 }
 
+
+/* Align Right */
+
 .gandhi,
 .right {
     text-align: right;
-}
-
-.products,
-.quote {
-    font-size: 3rem;
 }
