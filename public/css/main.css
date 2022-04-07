@@ -1,0 +1,35 @@
+nav {
+    background-image: url(../../assets/img/photographer-white.jpg);
+    background-color: var(--tan);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid black;
+    height: 100vh;
+    width: auto;
+}
+
+li {
+    margin: 20px 0px;
+}
+
+a {
+    margin: 10px;
+}
+
+i {
+    font-size: 25px;
+    color: black;
+}
+
+i:hover {
+    color: blue;
+}
+
