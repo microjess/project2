@@ -1,19 +1,26 @@
-body {
-    font-family: 'EB Garamond', serif;
+/* color variables */
+:root {
+    --darkblue: #283954;
+    --tan: #BE9266;
 }
 
-header {
-    position: fixed;
-    height: auto;
-    font-size: 2.5rem;
-    margin-left: 60px;
+body {
+    font-family: 'EB Garamond', serif;
+    /* color: white; */
 }
 
 nav {
+    background-image: url(../../assets/img/photographer-white.jpg);
+    background-color: var(--tan);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     border-right: 1px solid black;
     height: 100vh;
@@ -32,6 +39,57 @@ i {
     font-size: 25px;
     color: black;
 }
-main {
-    /* border: 1px solid black; */
+
+i:hover {
+    color: blue;
 }
+
+header {
+    width: 100%;
+    text-align: right;
+    font-size: 2.5rem;
+    margin: auto;
+    padding: 10px 10px 0px 63px;
+}
+
+main {
+    background-image: url(../../assets/img/grayscale-clothes.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 51px;
+}
+
+hr {
+    margin: 10px 0 0px 51px;
+}
+
+.quote-container {
+    width: 1000px;
+}
+
+.card {
+    margin: 20px;
+    width: auto;
+    background-color: var(tan);
+}
+
+.card-title {
+    margin: 10px;
+}
+
+.gandhi,
+.right {
+    text-align: right;
+}
+
+.products,
+.quote {
+    font-size: 3rem;
+}
+

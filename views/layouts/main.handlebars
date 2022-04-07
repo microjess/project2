@@ -14,23 +14,31 @@
 </head>
 
 <body>
-  <header id="main-header">
-    <span id="nav">
-      <a href="/" id="jumbotron">NAME OF WEBPAGE</a>
-      <span id="navOptions">
-        {{#if admin}}
-        <a id="adminTools" data-status="off">Admin Tools: Off</a>
-        {{/if}}
-        <a href="/">Home</a>
-        <a href="/dashboard">OTHER WEBPAGE</a>
-        {{#if logged_in}}
-        <a id="logout">logout</a>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </span>
-    </span>
-  </header>
+  <!-- Left-side nav bar -->
+    <nav class="nav">
+        <ul class="nav-links">
+            <li>
+                <a href="#home" class="home" title="Home">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#links" class="links" title="Links">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#about" class="about" title="About">
+                    <i class="fa-solid fa-address-card"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#login" class="login" title="Login">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
   {{{body}}}
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
