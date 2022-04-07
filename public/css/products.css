@@ -11,7 +11,6 @@ body {
 
 nav {
     background-image: url(../../assets/img/photographer-white.jpg);
-    background-color: var(--tan);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
