@@ -1,5 +1,5 @@
 nav {
-    background-image: url(../../assets/img/photographer-white.jpg);
+    background-image: url(../img/photographer-white.jpg);
     background-color: var(--tan);
     background-position: center center;
     background-repeat: no-repeat;
@@ -32,4 +32,3 @@ i {
 i:hover {
     color: blue;
 }
-
