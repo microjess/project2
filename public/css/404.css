@@ -1,0 +1,94 @@
+/* color variables */
+:root {
+    --darkblue: #283954;
+    --tan: #BE9266;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px;
+    background-color: var(--tan);
+    background-image: url('../../assets/img/lake-shot.jpg');
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.jumbotron {
+    font-family: 'EB Garamond', serif;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    width: 575px;
+}
+
+.display {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.four {
+    color: var(--tan);
+    font-size: 5rem;
+    margin: 10px;
+    /* text-shadow: 0px 0px 1px #fff; */
+}
+
+.four:hover {
+    color: white;
+}
+
+.exist {
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+
+hr {
+    height: 1px;
+}
+
+.description {
+    margin: 10px;
+}
+
+.line2 {
+    margin-top: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: var(--tan);
+}
+
+p a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+        width: 60%;
+    }
+
+    .four {
+        font-size: 3rem;
+    }
+
+    .exist {
+        font-size: 1rem;
+    }
+
+    .description {
+        display: none;
+    }
+}
