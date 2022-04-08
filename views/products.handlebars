@@ -32,11 +32,15 @@
                     <i class="fa-solid fa-address-card"></i>
                 </a>
             </li>
-            <li>
-                <a href="#login" class="login" title="Login">
-                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                </a>
+            {{#if logged_in}}
+            <li class="nav-item vl">
+              <a class="nav-link" id="logOutBtn" href="#">Log Out</a>
             </li>
+            {{else}}
+            <li class="nav-item vl">
+              <a class="nav-link" id="logOutBtn" href="/login">Log In</a>
+            </li>
+            {{/if}}
         </ul>
     </nav>
 
