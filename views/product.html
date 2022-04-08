@@ -43,44 +43,137 @@
     </nav>
 
     <!-- Header -->
-    <header class="header">
-        <h1 class=""> Sustainable Clothing Co.</h1>
-    </header>
-
-    <hr class="divider">
+    <div class="header">
+        <header>
+            <h1 class=""> Sustainable Clothing Co.</h1>
+        </header>
+    </div>
+        
+    <!-- <hr class="divider"> -->
 
     <!-- Main Body Contents -->
-    <main class="">
-        <section class="">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="quote-container">
+    <main class="main d-flex justify-content-center">
+        <section class="section">
+            <!-- Container -->
+            <div class="col-12 d-flex align-items-center flex-column">
 
-                    <h1 class="card-title quote left">
-                        “There is no beauty in the finest cloth
-                    </h1>
-                    <h1 class="card-title quote right">
-                        if it makes hunger and unhappiness.”  
-                    </h1>
-                    <p class="card-body gandhi">
-                        – Mahatma Gandhi
-                    </p>
-
-                </div>
-            </div>
-
-
-            <div class="col-12">
-                <div class="card">
-
-                    <h1 class="card-title products">Products</h1>
-                    <p class="card-body">Contents</p>
-
-                    <div class="card">
-                        <h1 class="card-title">Products</h1>
-                        <p class="card-body">Contents</p>
+                <!-- Form Container -->
+                <form class="form-container">
+                    <div class="form-group d-flex flex-row justify-content-start">
+                        <input type="search" class="form-control " placeholder="Find your product">
+                        <button type="button" class="btn btn-info searchBtn">Search</button>
                     </div>
+                </form>
 
-                </div>    
+                <!----- Product Cards Container ----->
+                <div class="card card-container container-fluid" id="product-container">
+
+                    <h1 class="card-title product-title" id="product-title">Products</h1>
+
+                    <!---------- Product Cards ----------->
+                    <div class="product-cards d-flex align-items-center flex-column">
+
+                        <div class="card col">
+
+                            <h1 class="card-title" id="product-name">Brightside T-Shirt</h1>
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                [Product Image]
+                                <img src="" alt="" class="product-image">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-contents d-flex justify-content-between align-items-center">
+                                    <p><span class="category">Category</span>Tops</p>
+                                    <p class="price" id="price">78.00</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="card col">
+
+                            <h1 class="card-title" id="product-name">Terrycloth Shorts</h1>
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                [Product Image]
+                                <img src="" alt="" class="product-image">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-contents d-flex justify-content-between align-items-center">
+                                    <p><span class="category">Category</span>Bottoms</p>
+                                    <p class="price" id="price">55.00</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card col">
+
+                            <h1 class="card-title" id="product-name">Dune Bikini Set</h1>
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                [Product Image]
+                                <img src="" alt="" class="product-image">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-contents d-flex justify-content-between align-items-center">
+                                    <p><span class="category">Category</span>Swimwear</p>
+                                    <p class="price" id="price">108.70</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card col">
+
+                            <h1 class="card-title" id="product-name">Monterey Sneakers</h1>
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                [Product Image]
+                                <img src="" alt="" class="product-image">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-contents d-flex justify-content-between align-items-center">
+                                    <p><span class="category">Category</span>Shoes</p>
+                                    <p class="price" id="price">127.00</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card col">
+
+                            <h1 class="card-title" id="product-name">Brixton Full Brim Hat</h1>
+                            <div class="card-img d-flex justify-content-center align-items-center">
+                                [Product Image]
+                                <img src="" alt="" class="product-image">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-contents d-flex justify-content-between align-items-center">
+                                    <p><span class="category">Category</span>Accessories</p>
+                                    <p class="price" id="price">32.60</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="quote-container">
+    
+                        <h1 class="quote left" id="quote">
+                            “There is no beauty in the finest cloth
+                        </h1>
+                        <h1 class="quote right" id="quote">
+                            if it makes hunger and unhappiness.”  
+                        </h1>
+                        <p class="card-body gandhi">
+                            – Mahatma Gandhi
+                        </p>
+    
+                    </div>
+                </div>
+    
+                
+
             </div>
         </section>
     </main>
