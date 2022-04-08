@@ -50,7 +50,15 @@ header {
     font-size: 2.5rem;
     margin: auto;
     padding: 10px 10px 0px 63px;
+}
+
+header a {
+    text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: var(--lightblue);
 }
 
 .header {
