@@ -22,7 +22,7 @@ body {
 
 nav {
     margin-top: -30px;
-    background-image: url(../../assets/img/photographer-white.jpg);
+    /* background-image: url(../../assets/img/photographer-white.jpg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,17 +39,21 @@ li {
     margin: 20px 0px;
 }
 
-a {
+nav a {
     margin: 10px;
 }
 
 i {
-    font-size: 25px;
-    color: black;
+    font-size: 20px;
+    color: white;
 }
 
 i:hover {
     color: blue;
+}
+
+main {
+    margin-left: 51px;
 }
 
 .container {
@@ -108,7 +112,7 @@ p a:hover {
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .jumbotron {
         width: 60%;
     }
