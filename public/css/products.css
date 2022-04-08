@@ -8,7 +8,7 @@
 
 body {
     font-family: 'EB Garamond', serif;
-    min-width: 
+    min-width: 500px;
 }
 
 /* Nav Styling */
@@ -128,28 +128,34 @@ form {
     border: none;
 }
 
-.btn {
-    color: white;
-    background-color: black;
-    border: none;
-    width: 200px;
-
-}
-
 input {
     padding: 10px;
     height: 38px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 ::placeholder {
-    color: black;
+    color: white;
+}
+
+div i {
+    color: white;
+    font-size: 2vh;
+    margin-right: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border: 1px solid var(--gray);
+    width: 200px;
 }
 
 /* Product Header */
 .product-title {
     font-size: 3rem;
     color: white;
+    border-bottom: 1px solid black;
 }
 
 #product-name {
@@ -160,12 +166,11 @@ input {
 .card {
     margin: 20px;
     background-color: var(tan);
-    width: 60%;
+    width: 50%;
 }
 
 .card-title {
     margin: 10px;
-    border-bottom: 1px solid black;
 }
 
 .card-img {
@@ -185,6 +190,10 @@ input {
     font-size: 3vh;
 }
 
+.dolla {
+    color: var(--tan);
+    opacity: 30%;
+}
 .price {
     text-align: right;
     font-size: 5vh;
