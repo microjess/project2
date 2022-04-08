@@ -1,14 +1,17 @@
 /* color variables */
 :root {
     --darkblue: #283954;
+    --lightblue: #0dcaf0;
     --tan: #BE9266;
+    --gray: #AFB0B1;
 }
 
 body {
     font-family: 'EB Garamond', serif;
-    /* color: white; */
+    min-width: 
 }
 
+/* Nav Styling */
 nav {
     background-image: url(../../assets/img/photographer-white.jpg);
     background-position: center center;
@@ -21,9 +24,6 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-right: 1px solid black;
-    height: 100vh;
-    width: auto;
 }
 
 li {
@@ -40,17 +40,26 @@ i {
 }
 
 i:hover {
-    color: blue;
+    color: var(--lightblue);
 }
 
+/* Header Styling */
 header {
     width: 100%;
     text-align: right;
     font-size: 2.5rem;
     margin: auto;
     padding: 10px 10px 0px 63px;
+    color: white;
 }
 
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+}
+
+/* Main Page Content Styling */
 main {
     background-image: url(../../assets/img/grayscale-clothes.jpg);
     background-position: center center;
@@ -59,38 +68,118 @@ main {
     min-height: 100vh;
     width: auto;
     display: flex;
-    width: 100%;
-    height: 100%;
     padding-left: 51px;
+    margin: auto;
 }
 
+section {
+    width: 100%;
+}
+
+/* Divider Styling */
 hr {
-    margin: 10px 0 0px 51px;
+    margin: 0px 0 0px 51px;
 }
 
+/* Quote Card styling */
 .quote-container {
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(5px);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    width: 90%;
-    margin: 20px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
     color: var(--tan);
 }
 
-.card {
-    margin: 20px;
-    width: 90vw;
-    background-color: var(tan);
+.quote {
+    font-size: 4vw;
+}
+/* Products Container Styling */
+#product-container {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0 auto;
+    border-radius: 0;
 }
 
-.products,
-.quote {
+/* Form Styling */
+form {
+    display: inline-block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 200px;
+
+}
+
+input {
+    padding: 10px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+::placeholder {
+    color: black;
+}
+
+/* Product Header */
+.product-title {
     font-size: 3rem;
+    color: white;
+}
+
+#product-name {
+    font-size: 3vh;
+}
+
+/* Card styling */
+.card {
+    margin: 20px;
+    background-color: var(tan);
+    width: 60%;
 }
 
 .card-title {
     margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+.card-img {
+    margin: auto 0;
+    height: 100px;
+}
+
+.card-contents {
+    padding-top: 10px;
+    border-top: 1px solid black;
+    font-size: 3vh;
+}
+
+.category {
+    color: var(--gray);
+    opacity: 50%;
+    font-size: 3vh;
+}
+
+.price {
+    text-align: right;
+    font-size: 5vh;
 }
 
 /* Align Right */
@@ -99,3 +188,16 @@ hr {
     text-align: right;
 }
 
+#quote {
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .gandhi {
+        font-size: 5vw;
+    }
+}
