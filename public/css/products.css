@@ -177,7 +177,11 @@ div i {
 
 .card-img {
     margin: auto 0;
-    height: 100px;
+}
+
+.product-image {
+    height: 300px;
+    width: 300px; 
 }
 
 .card-contents {
