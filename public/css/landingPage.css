@@ -1,0 +1,61 @@
+/* vertical line */
+.vl{
+    height: 29px;
+    border-left: 2px solid black;
+}
+
+/* margin left */
+.ml {
+    margin-right: 30%;
+}
+
+.hl {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+.hl span { 
+     padding:0 10px; 
+ }
+
+ .c-vh {
+     object-position: center bottom;
+ }
+
+ .card {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+  }
+
+.c-border{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-top: 2px, solid, black !important;
+      border-bottom: 1px, solid, black !important;
+}
+
+.carousel-item {
+    height: 40rem;
+    color: white;
+    position: relative;
+}
+
+.c-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100rem;
+    margin: 0 auto;
+}
