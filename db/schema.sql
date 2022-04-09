@@ -4,4 +4,4 @@ DROP DATABASE IF EXISTS sustainable_db;
 CREATE DATABASE sustainable_db;
 
  
->>>>>>> main
+USE sustainable_db;
