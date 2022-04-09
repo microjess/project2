@@ -19,7 +19,7 @@
     <nav class="nav">
         <ul class="nav-links">
             <li>
-                <a href="#home" class="home" title="Home">
+                <a href="/" class="home" title="Home">
                     <i class="fa-solid fa-house"></i>
                 </a>
             </li>
@@ -33,18 +33,22 @@
                     <i class="fa-solid fa-address-card"></i>
                 </a>
             </li>
-            <li>
-                <a href="#login" class="login" title="Login">
-                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                </a>
+            {{#if logged_in}}
+            <li class="nav-item vl">
+              <a class="nav-link" id="logOutBtn" href="#">Log Out</a>
             </li>
+            {{else}}
+            <li class="nav-item vl">
+              <a class="nav-link" id="logOutBtn" href="/login">Log In</a>
+            </li>
+            {{/if}}
         </ul>
     </nav>
 
     <!-- Header -->
     <div class="header">
         <header>
-            <a href="#scc" class="scc">Sustainable Clothing Co.</a>
+            <a href="/" class="scc">Sustainable Clothing Co.</a>
         </header>
     </div>
         
@@ -82,9 +86,8 @@
                             </div>
 
                             <!-- Card Image -->
-                            <div class="card-img d-flex justify-content-center align-items-center">
-                                [Product Image]
-                                <img src="" alt="" class="product-image">
+                         <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="../public/img/tshirt.png" alt="" class="product-image">
                             </div>
 
                             <!-- Card Contents -->
@@ -107,9 +110,8 @@
                             </div>
 
                             <!-- Card Image -->
-                            <div class="card-img d-flex justify-content-center align-items-center">
-                                [Product Image]
-                                <img src="" alt="" class="product-image">
+                         <div class="card-img d-flex justify-content-center align-items-center">
+                                <img src="../public/img/terry-cloth-shorts.jpeg" alt="" class="product-image">
                             </div>
 
                             <!-- Card Contents -->
@@ -133,8 +135,7 @@
 
                             <!-- Card Image -->
                             <div class="card-img d-flex justify-content-center align-items-center">
-                                [Product Image]
-                                <img src="" alt="" class="product-image">
+                                <img src="../public/img/bikini-set.jpeg" alt="" class="product-image">
                             </div>
 
                             <!-- Card Contents -->
@@ -157,8 +158,7 @@
                             </div>
                             <!-- Card Image -->
                             <div class="card-img d-flex justify-content-center align-items-center">
-                                [Product Image]
-                                <img src="" alt="" class="product-image">
+                                <img src="../public/img/sneakers.jpeg" alt="" class="product-image">
                             </div>
 
                             <!-- Card Contents -->
@@ -182,8 +182,7 @@
 
                             <!-- Card Image -->
                             <div class="card-img d-flex justify-content-center align-items-center">
-                                [Product Image]
-                                <img src="" alt="" class="product-image">
+                                <img src="../public/img/hat.jpeg" alt="" class="product-image">
                             </div>
 
                             <!-- Card Contents -->
