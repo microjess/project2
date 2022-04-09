@@ -1,10 +1,10 @@
 nav {
-    background-image: url(../img/photographer-white.jpg);
+    /* background-image: url(../img/photographer-white.jpg); */
     background-color: var(--tan);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     width: auto;
     position: fixed;
     display: flex;
@@ -12,7 +12,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     border-right: 1px solid black;
-    height: 100vh;
+    /* height: 100vh; */
     width: auto;
 }
 
