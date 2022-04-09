@@ -167,6 +167,11 @@ div i {
     margin: 20px;
     background-color: var(tan);
     width: 50%;
+    height: auto;
+}
+
+.id {
+    opacity: 50%;
 }
 
 .card-title {
