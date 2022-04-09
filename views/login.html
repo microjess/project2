@@ -9,60 +9,145 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../public/css/reset.css">
     <link rel="stylesheet" href="../public/css/login.css">
+    <script src="https://kit.fontawesome.com/e05aadbe2e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Header  -->
-    <header>
-        <h1>Sustainable Clothing Co.</h1>
-    </header>
+    
+    <!-- Left-side nav bar -->
+    <nav class="nav">
+        <ul class="nav-links">
+            <li>
+                <a href="#home" class="home" title="Home">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#links" class="links" title="Links">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#about" class="about" title="About">
+                    <i class="fa-solid fa-address-card"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#login" class="login" title="Login">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-    <!-- Card Container -->
-    <div class="row" id="loginPage">
+    <main class="main">
+        <!-- Header  -->
+        <header>
+            <a href="#home" class="scc">Sustainable Clothing Co.</a>
+        </header>
 
-        <!-- Login Card -->
-        <div class="login-card" id="login-card">
+        <!-- Card Container -->
+        <div class="row" id="loginPage">
 
-            <!---------- Card Contents ---------->
+            <!-- Login Card -->
+            <div class="login-card" id="login-card">
 
-            <!-- Card Form -->
-            <form class="form login-form" id="login-form">
+                <!---------- Card Contents ---------->
 
-                <!-- Card header -->
-                <div class="form-group welcome" id="welcome">
-                    <h2 id="logInHeader">Welcome Back</h2>
-                    <p>Please login with your credentials.</p>
-                </div>
+                <!-- Card Form -->
+                <form class="form login-form" id="login-form">
 
-                <!-- Email Group -->
-                <div class="form-group">
-                    <label for="email-login" class="form-label">Email: </label>
-                    <input class="form-control form-input" type="email" id="email-login"/>
-                    <p class="signupHints" id="loginHintEmail">example@email.com</p>
-                </div>
+                    <!-- Card header -->
+                    <div class="form-group welcome" id="welcome">
+                        <h2 id="logInHeader">Welcome Back</h2>
+                        <p>Please login with your credentials.</p>
+                    </div>
 
-                <!-- Password Group -->
-                <div class="form-group">
-                    <label for="password-login" class="form-label">Password: </label>
-                    <input class="form-control form-input" type="password" id="password-login"/>
-                    <ul class="signupHints" id="loginHintPassword">
-                        <li> 1 lowercase character </li>
-                        <li> 1 uppercase character </li>
-                        <li> 1 special character   </li>
-                        <li> 1 number              </li>
-                        <li> 8 characters minimum  </li>
-                    </ul>
-                </div>
+                    <!-- Email Group -->
+                    <div class="form-group">
+                        <label for="email-login" class="form-label">Email: </label>
+                        <input class="form-control form-input" type="email" id="email-login"/>
+                        <p class="signupHints" id="loginHintEmail">example@email.com</p>
+                    </div>
 
-                <!-- Button Group -->
-                <div class="form-group loginButton">
-                    <button class="btn btn-primary" type="submit" id="login">Login</button>
-                    <p class="">
-                        New User? <a href="#" id="sign-up-here">Sign Up Here!</a>
-                    </p>
-                </div>
-            </form>
+                    <!-- Password Group -->
+                    <div class="form-group">
+                        <label for="password-login" class="form-label">Password: </label>
+                        <input class="form-control form-input" type="password" id="password-login"/>
+                        <ul class="signupHints" id="loginHintPassword">
+                            <li> 1 lowercase character </li>
+                            <li> 1 uppercase character </li>
+                            <li> 1 special character   </li>
+                            <li> 1 number              </li>
+                            <li> 8 characters minimum  </li>
+                        </ul>
+                    </div>
+
+                    <!-- Button Group -->
+                    <div class="form-group loginButton">
+                        <button class="btn btn-primary" type="submit" id="login">Login</button>
+                        <p class="">
+                            New User? <a href="#" id="sign-up-here">Sign Up Here!</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <!--------------- Signup Card --------------->
+            <div class="login-card" id="sign-up-card">
+
+                <!---------- Card Contents ---------->
+
+                <!-- Card Form -->
+                <form class="form signup-form" id="signup-form">
+
+                    <!-- Card Header -->
+                    <div class="form-group signup-pg">
+                        <h2 id="signUp">Sign Up</h2>
+                        <p>Become a member today!</p>
+                    </div>
+
+                    <!-- Name Group -->
+                    <div class="form-group">
+                        <label for="name-signup" class="form-label">Username: </label>
+                        <input class="form-control form-input" type="text" id="name-signup"/>
+                        <ul class="signupHints" id="signupHintName">
+                            <li> 4 characters minimum </li>
+                            <li> must be alphanumeric </li>
+                        </ul>
+                    </div>
+
+                    <!-- Email Group -->
+                    <div class="form-group">
+                        <label for="email-signup" class="form-label">Email: </label>
+                        <input class="form-control form-input" type="email" id="email-signup"/>
+                        <p class="signupHints" id="signupHintEmail">example@email.com</p>
+                    </div>
+
+                    <!-- Password Group -->
+                    <div class="form-group">
+                        <label for="password-signup" class="form-label">Password: </label>
+                        <input class="form-control form-input" type="password" id="password-signup"/>
+                        <ul class="signupHints" id="signupHintPassword">
+                            <li> 1 lowercase character </li>
+                            <li> 1 uppercase character </li>
+                            <li> 1 special character   </li>
+                            <li> 1 number              </li>
+                            <li> 8 characters minimum  </li>
+                        </ul>
+                    </div>
+
+                    <!-- Button Group -->
+                    <div class="form-group signUpButton">
+                        <button class="btn btn-primary" type="submit" id="sign_up" disabled>Signup</button>
+                        <p class="">
+                            Existing User? <a href="#" id="login-here">Login Here!</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <!--------------- Signup Card --------------->

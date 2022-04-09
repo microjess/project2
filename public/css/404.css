@@ -23,6 +23,46 @@ body {
     text-align: center;
 }
 
+nav {
+    margin-top: -30px;
+    /* background-image: url(../../assets/img/photographer-white.jpg); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li {
+    margin: 20px 0px;
+}
+
+nav a {
+    margin: 10px;
+}
+
+i {
+    font-size: 20px;
+    color: white;
+}
+
+i:hover {
+    color: blue;
+}
+
+main {
+    margin-left: 51px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
 .jumbotron {
     font-family: 'EB Garamond', serif;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, .2);
@@ -35,8 +75,7 @@ body {
 }
 
 .display {
-    padding: 20px;
-    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .four {
@@ -76,7 +115,7 @@ p a:hover {
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .jumbotron {
         width: 60%;
     }
