@@ -46,5 +46,5 @@ module.exports = {
     Tag,
     ProductTag,
     Role,
-    User,
+    User
 };
