@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
     "compression": "^1.7.4",
