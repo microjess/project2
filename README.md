@@ -1,7 +1,7 @@
 # Sustainable Clothing E-Commerce Application for a Better World
 
 # Link to Deployed Application
-TBA 
+[Application](https://groupprojectii-app.herokuapp.com/)
 
 # Overview 
 "Fast fashion" is at an all-time high with e-commerce companies producing mass quantities of clothing. Unfortunately, with "fast fashion" comes unethical sourcing and production and often poor factory conditions for workers. Our e-commerce site focuses on sustainable clothing that has transparency around fabric, production, and factory conditions. With integrated Stripe API, customers can add and purchase sustainable clothing directly from our site. 
