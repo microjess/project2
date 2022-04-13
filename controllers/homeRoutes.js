@@ -15,6 +15,10 @@ router.get("/404", (req, res) => {
     res.render("404")
 })
 
+router.get("/checkout", (req, res) => {
+    res.render("checkout")
+})
+
 //These routes help other routes redirect to /login with the auth middleware
 router.get("/login", (req, res) => {
     res.render("login");
